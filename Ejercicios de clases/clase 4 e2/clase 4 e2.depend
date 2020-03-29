@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1585433098 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 4 e2\utn.c
+	<stdio.h>
+	<stdlib.h>
+
+1585438860 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 4 e2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+	"getRandomNumber.h"
+
+1585432730 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 4 e2\utn.h
+
+1585438756 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 4 e2\getrandomnumber.h
+
+1585438830 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 4 e2\getrandomnumber.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
