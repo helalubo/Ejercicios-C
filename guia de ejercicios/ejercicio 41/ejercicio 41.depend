@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1585433098 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 41\utn.c
+	<stdio.h>
+	<stdlib.h>
+
+1585713202 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 41\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"utn.h"
+	"maxAndMin.h"
+
+1585432730 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 41\utn.h
+
+1585713175 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 41\maxandmin.h
+
