@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1585433098 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 43\utn.c
+	<stdio.h>
+	<stdlib.h>
+
+1585718249 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 43\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1585432730 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 43\utn.h
+
