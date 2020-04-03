@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 
 
@@ -66,6 +67,32 @@ char getChar(char mensaje[])
     aux = getche();
 
     return aux;
+
+
+}
+
+
+
+/**
+*@brief Obtiene un string.
+*@param cadena = puntero de string.
+*@param mensaje = mensaje a mostrar al pedir el string
+*/
+
+
+void getString(char* cadena[], char mensaje[])
+{
+
+
+    char aux[50];
+
+    printf(mensaje);
+    scanf("%s",&aux);
+
+    strcpy(cadena,aux);
+
+
+
 
 
 }
