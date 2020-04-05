@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1586070896 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1586070901 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validate.h"
+
+1586058696 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\validate.h
+
+1586058668 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1586064602 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\utn.h
+
+1586068751 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\operations.c
+
+1586067395 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios 52\search.c
+	<stdio.h>
+	<stdlib.h>
+
