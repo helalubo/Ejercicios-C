@@ -11,20 +11,20 @@ int getRandomNumber(int desde, int hasta);
 
 /**
 *\brief Devuelve el mayor numero en un arreglo
-*\param int [] arreglo del que se encontrara el mayor numero
-*\param int numero maximo
+*\param float[] arreglo del que se encontrara el mayor numero
+*\param float numero maximo
 *\param int tamanio del arreglo correspondiente
-*\return int numero mayor del arreglo
+*\return float numero mayor del arreglo
 */
 
-int getMax(int  num[], int  max,int tam);
+int   getMax(int num[], int max,int tam);
 
 /**
 *\brief Devuelve el mayor numero en un arreglo
-*\param int[] arreglo del que se encontrara el mayor numero
-*\param int numero minimo
+*\param float[] arreglo del que se encontrara el mayor numero
+*\param float numero minimo
 *\param int tamanio del arreglo correspondiente
-*\return int numero menor del arreglo
+*\return float numero menor del arreglo
 */
 
-float getMin(int  num[], int min,int tam);
+float getMin(float num[], float min,int tam);

@@ -16,6 +16,8 @@ int getInt(char mensaje[])
     printf("%s",mensaje);
     scanf("%d",&aux);
 
+
+
     return aux;
 
 

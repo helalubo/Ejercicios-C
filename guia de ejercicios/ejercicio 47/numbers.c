@@ -17,7 +17,7 @@ int getRandomNumber(int desde, int hasta)
 }
 
 
-int getMax(int  num[], int max, int tam)
+int getMax(int num[], int max, int tam)
 {
 
     for(int i = 0; i<tam; i++)
@@ -40,7 +40,7 @@ int getMax(int  num[], int max, int tam)
 
 }
 
-int getMin(int  num[], int  min, int tam)
+float getMin(float num[], float min, int tam)
 {
 
 

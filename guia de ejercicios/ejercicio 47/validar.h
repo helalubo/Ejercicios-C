@@ -21,3 +21,5 @@ int isEmail (char cadena[]);
 *\return devuelve 1 como true y 0 como false
 */
 int isNumber(char numero[]);
+
+
