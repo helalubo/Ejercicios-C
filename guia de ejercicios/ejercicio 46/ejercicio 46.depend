@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1586041783 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 46\numbers.c
+	<stdio.h>
+	<stdlib.h>
+
+1586031311 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 46\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1586031470 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 46\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1586031312 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 46\utn.h
+
+1586040109 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 46\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<string.h>
+	"utn.h"
+	"validar.h"
+
+1586032786 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 46\validar.h
+

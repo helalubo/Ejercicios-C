@@ -1,8 +1,8 @@
 
 
 /**
-* \brief Valida respuesta 's' o 'n' sin permitir *otros valores
-* \param char[] Mensaje de lo que se desea dar *indicaciones de si o no
+* \brief Valida respuesta 's' o 'n' sin permitir otros valores
+* \param char[] Mensaje de lo que se desea dar indicaciones de si o no
 * \return int respuesta de tipo char *correspondiente a *'s' o 'n'
 *
 */
@@ -21,12 +21,3 @@ int isEmail (char cadena[]);
 *\return devuelve 1 como true y 0 como false
 */
 int isNumber(char numero[]);
-
-
-/** \brief 
- *
- * \param number float Numero a comprobar si es decimal
- * \return int devuelve 1 si es decimal 0 si no lo es.
- *
- */    
-int isFloat(float number);

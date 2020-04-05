@@ -1,3 +1,5 @@
+
+
 /** \brief Pide numero entero y lo devuelve
  *
  * \param char[] mensaje que indica que dato pedir.
@@ -10,13 +12,12 @@ int getInt(char mensaje[]);
 /** \brief Pide numero flotante y lo devuelve
  *
  * \param char[] mensaje que indica que dato pedir.
- * \param char[] mensaje de error.
  *
  * \return flotante
  *
  */
 
-float getFloat(char mensaje[], char Emensaje[])
+float getFloat(char mensaje[]);
 
 /** \brief Pide caracter y lo devuelve
  *
@@ -33,4 +34,3 @@ char getChar(char mensaje[]);
 *\param char[]  mensaje a mostrar al pedir el *string
 */
 void getString(char* cadena[], char mensaje[]);
-

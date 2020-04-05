@@ -118,30 +118,7 @@ int isNumber(char cadena[])
     return flag;
 }
 
-int isFloat(float number)
-{
 
-    int aux = 0;
-    int flag = 0;
-
-    aux = number;
-
-    if(number - aux != 0)
-    {
-
-        flag = 1;
-
-    }
-
-
-
-
-
-
-
-    return flag;
-
-}
 
 
 
