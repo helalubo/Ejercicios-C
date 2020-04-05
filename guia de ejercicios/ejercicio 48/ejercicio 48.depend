@@ -15,3 +15,9 @@
 
 1586058696 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 48\validar.h
 
+1586064695 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 48\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"validar.h"
+

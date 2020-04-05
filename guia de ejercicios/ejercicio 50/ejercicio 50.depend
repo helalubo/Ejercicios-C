@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1586066728 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\search.c
+	<stdio.h>
+	<stdlib.h>
+
+1586064633 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1586058696 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\validar.h
+
+1586058668 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1586064602 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\utn.h
+
+1586066636 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\numbers.c
+	<stdio.h>
+	<stdlib.h>
+
+1586067284 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"utn.h"
+	"validar.h"
+	"search.h"
+	"numbers.h"
+
+1586066761 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\search.h
+
+1586067328 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicio 50\numbers.h
+
