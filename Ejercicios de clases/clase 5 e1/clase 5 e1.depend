@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1586587292 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\arrays.c
+	<limits.h>
+	<stdio.h>
+
+1586067244 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\numbers.c
+	<stdio.h>
+	<stdlib.h>
+
+1586581262 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\operations.c
+
+1586587029 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1586578305 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1586578324 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\utn.h
+
+1586586611 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"utn.h"
+	"numbers.h"
+	"validate.h"
+	"search.h"
+	"arrays.h"
+
+1586067223 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\numbers.h
+
+1586581267 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\operations.h
+
+1586578755 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\validate.h
+
+1586576403 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\search.h
+
+1586581246 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase 5 e1\arrays.h
+
