@@ -65,7 +65,7 @@ int isFloat(char cadena[])
         while(cadena[i] != '\0' )
         {
 
-            if(cadena[i] >= '0' && cadena [i]<='9' || cadena[0] == '-' || cadena[i] == '.')
+            if((cadena[i] >= '0' && cadena [i]<='9') || cadena[0] == '-' || cadena[i] == '.')
             {
 
                 flag = 1;
@@ -105,32 +105,43 @@ float getFloat(char mensaje[])
 {
 
     char aux[60];
-    int verificarNumero = -1;
-    int verificarFloat = -1;
+    int verificar = 0;
+
     float resultado;
 
-    getString(aux,mensaje);
 
-    verificarNumero = isNumber(aux);
-    verificarFloat = isFloat(aux);
 
-    if(verificarNumero == 1 && verificarFloat == 1)
+    while(verificar == 0)
     {
 
 
-        resultado = atof(aux);
+
+        getString(aux,mensaje);
+
+        verificar = isFloat(aux);
 
 
+        if(verificar == 1 )
+        {
+
+
+            resultado = atof(aux);
+            break;
+
+
+
+        }
+        else
+        {
+
+            printf("Error, debe ingresar un numero");
+
+
+
+        }
 
     }
-    else
-    {
 
-        printf("Error, debe ingresar un numero");
-        getFloat(mensaje);
-
-
-    }
 
 
 
@@ -175,7 +186,7 @@ void getString(char* cadena[], char mensaje[])
     char aux[50];
 
     printf(mensaje);
-    scanf("%s",&aux);
+    scanf("%s",aux);
 
     strcpy(cadena,aux);
 
@@ -199,7 +210,7 @@ int isNumber(char cadena[])
         while(cadena[i] != '\0' )
         {
 
-            if(cadena[i] >= '0' && cadena [i]<='9' || cadena[0] == '-')
+            if((cadena[i] >= '0' && cadena [i]<='9') || cadena[0] == '-')
             {
 
                 flag = 1;
@@ -228,7 +239,5 @@ int isNumber(char cadena[])
 
     return flag;
 }
-
-
 
 

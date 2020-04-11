@@ -15,7 +15,7 @@ cargados indicando el índice del mismo y su nuevo valor.
 #define CANT 5
 
 #include "utn.h"
-#include "numbers.h"
+
 
 #include "validate.h"
 #include "search.h"
