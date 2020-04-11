@@ -36,7 +36,7 @@ int getInt(char mensaje[])
         else
         {
 
-            printf("Error, debe ingresar un numero");
+    printf("\n********Error********\n");
 
 
         }
@@ -134,7 +134,7 @@ float getFloat(char mensaje[])
         else
         {
 
-            printf("Error, debe ingresar un numero");
+    printf("\n********Error********\n");
 
 
 
