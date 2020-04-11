@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1586592816 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase6 e1\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1586593298 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase6 e1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+	"validate.h"
+
+1586579605 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase6 e1\input.h
+
+1586593195 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase6 e1\validate.h
+
+1586593260 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\clase6 e1\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"input.h"
+

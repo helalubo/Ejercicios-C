@@ -186,7 +186,6 @@ void getString(char* cadena[], char mensaje[])
     char aux[50];
 
     printf(mensaje);
-   // scanf("%s",aux);
     gets(aux); // a prueba
 
     strcpy(cadena,aux);
