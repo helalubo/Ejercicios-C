@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1587268427 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\arrays.c
+	<limits.h>
+	<stdio.h>
+
+1587271996 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1587253516 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"input.h"
+
+1587272194 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\input.h
+
+1587279852 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arrays.h"
+	"input.h"
+	"validate.h"
+	"ordering.h"
+	"socios.h"
+	"mostrar.h"
+	"operacionesSocios.h"
+
+1587265481 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\arrays.h
+
+1587253464 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\validate.h
+
+1587276670 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\ordering.h
+
+1587278638 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\ordering.c
+	<string.h>
+
+1587279924 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\operacionessocios.c
+
+1587279905 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\mostrar.c
+
+1587279936 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\socios.h
+
+1587279451 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\mostrar.h
+
+1587279524 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\operacionessocios.h
+
+1587280307 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\socios.c
+	"arrays.h"
+	"validate.h"
+	"input.h"
+	"mostrar.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

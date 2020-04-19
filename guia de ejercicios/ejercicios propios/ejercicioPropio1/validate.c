@@ -29,7 +29,6 @@ char verificarSN(char mensaje[])
 
 }
 
-
 char verificarMF(char mensaje[])
 {
 

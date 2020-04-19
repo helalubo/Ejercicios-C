@@ -1,7 +1,7 @@
 
 /** \brief Obtiene un entero
  *
- * \param char[]  mensaje[] char mensaje a mostrar al pedir el entero
+ * \param mensaje[] char mensaje a mostrar al pedir el entero
  * \return int numero pedido
  *
  */
@@ -10,7 +10,7 @@ int getInt(char mensaje[]);
 
 /** \brief Verifica si es un flotante
  *
- * \param float number flotante a verificar
+ * \param number flotante a verificar
  * \return int 1 si es flotante 0 si no
  *
  */
@@ -20,7 +20,7 @@ int isFloat(float number);
 
 /** \brief Obtener un flotante
  *
- * \param char mensaje[]  mensaje al pedir el flotante
+ * \param mensaje[] char mensaje al pedir el flotante
  * \return float flotante obtenido
  *
  */
@@ -31,7 +31,7 @@ float getFloat(char mensaje[]);
 
 /** \brief  obtiene un caracter
  *
- * \param char mensaje[] char mensaje al pedir el caracter
+ * \param mensaje[] char mensaje al pedir el caracter
  * \return char caracter obtenido
  *
  */
@@ -44,8 +44,8 @@ char getChar(char mensaje[]);
 
 /** \brief Obtiene un string
  *
- * \param char array donde sera copiado el string
- * \param char mensaje al pedir el string
+ * \param array donde sera copiado el string
+ * \param mensaje al pedir el string
  *
  *
  */

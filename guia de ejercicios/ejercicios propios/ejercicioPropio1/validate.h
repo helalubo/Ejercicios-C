@@ -8,6 +8,7 @@
 */
 char verificarSN(char mensaje[]);
 
+
 /**
 * \brief Valida respuesta 'f'(femenino) o 'm'(masculino)  sin permitir *otros valores
 * \param char[] Mensaje de lo que se desea dar *indicaciones de si o no
@@ -15,7 +16,6 @@ char verificarSN(char mensaje[]);
 *
 */
 char verificarMF(char mensaje[]);
-
 
 
 /**
