@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 #include "input.h"
 
@@ -151,7 +152,7 @@ int onlyLetters(char cadena[])
         while(cadena[i] != '\0' )
         {
 
-            if((cadena[i] >= 'A' && cadena [i]<='Z') || (cadena[i] >= 'a' && cadena [i]<='z') )
+            if((cadena[i] >= 'A' && cadena [i]<='Z') || (cadena[i] >= 'a' && cadena [i]<='z') || cadena[i] == ' ' )
             {
 
                 flag = 1;
@@ -276,7 +277,7 @@ int i = 0;
 
     if (onlyNumbers(cadena) == 1){
 
-        flag = 0;
+        flag = 1;
     }
 
 
@@ -287,6 +288,45 @@ int i = 0;
 
 
 }
+
+
+int isStringWithDefinedSize(char cadena [],int tam){
+
+    int verificador;
+
+    if(strlen(cadena) <= tam ){
+
+        verificador = 1;
+
+    }else{
+
+    verificador = 0;
+
+    }
+
+    return verificador;
+
+}
+
+int isNumberWithDefinedRange(int number, int maximo, int minimo){
+
+    int verificador;
+
+    if(number >= minimo && number<= maximo ){
+
+
+        verificador = 1;
+    }else{
+
+
+    verificador = 0;
+    }
+
+    return verificador;
+
+}
+
+
 
 
 

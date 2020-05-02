@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1588253144 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\alumnosconcursos\main.c
+	<stdlib.h>
+	<stdio.h>
+	"Alumno.h"
+	"Curso.h"
+
+1588254307 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\alumnosconcursos\alumno.h
+	"Curso.h"
+
+1588256242 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\alumnosconcursos\curso.h
+
+1588256356 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\alumnosconcursos\curso.c
+	"Curso.h"
+	<stdio.h>
+	<string.h>
+

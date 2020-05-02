@@ -1,11 +1,84 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
+#include "validate.h"
+
+int isNumber(char cadena[])
+{
+
+    int i = 0;
+    int flag = 0;
+
+
+    if(cadena != NULL)
+    {
+
+        while(cadena[i] != '\0' )
+        {
+
+            if((cadena[i] >= '0' && cadena [i]<='9') || cadena[0] == '-')
+            {
+
+                flag = 1;
+            }
+            else
+            {
+                flag = 0;
+                break;
+            }
+
+            i++;
+
+        }
+
+
+
+    }
+    else
+    {
+
+        flag = 0;
+
+
+    }
+
+
+    return flag;
+}
 
 
 
 
 
+void getString(char cadena[], char mensaje[])
+{
+
+
+    char aux[50];
+    printf(mensaje);
+    fflush(stdin);
+    gets(aux); // a prueba
+
+    strcpy(cadena,aux);
+
+    while(strcmp(cadena,"")==0)
+    {
+
+        printf("\nError! cadena vacia.");
+        printf(mensaje);
+        // scanf("%s",aux);
+        fflush(stdin);
+        gets(aux); // a prueba
+
+        strcpy(cadena,aux);
+
+    }
+
+
+}
 
 
 int getInt(char mensaje[])
@@ -36,7 +109,7 @@ int getInt(char mensaje[])
         else
         {
 
-    printf("\n********Error********\n");
+            printf("\n********Error********\n");
 
 
         }
@@ -134,7 +207,7 @@ float getFloat(char mensaje[])
         else
         {
 
-    printf("\n********Error********\n");
+            printf("\n********Error********\n");
 
 
 
@@ -179,67 +252,112 @@ char getChar(char mensaje[])
 
 
 
-void getString(char cadena[], char mensaje[])
+
+
+void getEmail(char cadena[], char mensaje[])
 {
 
 
     char aux[50];
 
     printf(mensaje);
-   // scanf("%s",aux);
-	fflush(stdin);
-    gets(aux); // a prueba
+
+    fflush(stdin);
+    gets(aux);
+
+
+    while(isEmail(aux) == 0)
+    {
+        printf("\nError! ingresar email valido: ");
+        printf(mensaje);
+        fflush(stdin);
+        gets(aux);
+
+
+    }
+
 
     strcpy(cadena,aux);
 
-
-
-
-
 }
 
 
-int isNumber(char cadena[])
+
+
+void getStringWithDefineSize(char cadena[], char mensaje[],int tam)
 {
 
-    int i = 0;
-    int flag = 0;
+
+    getString(cadena,mensaje);
 
 
-    if(cadena != NULL)
+
+    while(isStringWithDefinedSize(cadena,tam) == 0)
     {
-
-        while(cadena[i] != '\0' )
-        {
-
-            if((cadena[i] >= '0' && cadena [i]<='9') || cadena[0] == '-')
-            {
-
-                flag = 1;
-            }
-            else
-            {
-                flag = 0;
-                break;
-            }
-
-            i++;
-
-        }
-
-
-
-    }
-    else
-    {
-
-        flag = 0;
-
-
+        printf("\n Error! Cadena supera el limite establecido");
+        getString(cadena,mensaje);
     }
 
 
-    return flag;
+
 }
+
+int getNumberWithDefinedRange(char mensaje[], int maximo, int minimo, char eMensaje[]){
+
+
+    int rta;
+
+    rta = getInt(mensaje);
+
+    while(isNumberWithDefinedRange(rta,maximo,minimo)== 0){
+
+            printf(eMensaje);
+            rta = getInt(mensaje);
+
+    }
+
+
+    return rta;
+
+}
+
+void getPhoneNumber(char cadena[], char mensaje[],char Emensaje[])
+{
+
+
+    getString(cadena,mensaje);
+
+
+
+    while(onlyPhoneNumbers(cadena) == 0)
+    {
+        printf(Emensaje);
+        getString(cadena,mensaje);
+    }
+
+
+
+}
+
+void getOnlyLetters(char cadena[], char mensaje[],char Emensaje[])
+{
+
+
+    getString(cadena,mensaje);
+
+
+
+    while(onlyLetters(cadena) == 0)
+    {
+        printf(Emensaje);
+        getString(cadena,mensaje);
+    }
+
+
+
+}
+
+
+
 
 

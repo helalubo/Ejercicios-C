@@ -37,9 +37,15 @@
 1587278638 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\ordering.c
 	<string.h>
 
-1587279924 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\operacionessocios.c
+1587280761 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\operacionessocios.c
+	<stdio.h>
+	<stdlib.h>
+	"arrays.h"
 
-1587279905 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\mostrar.c
+1587280681 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\mostrar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 
 1587279936 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\socios.h
 
@@ -47,7 +53,7 @@
 
 1587279524 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\operacionessocios.h
 
-1587280307 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\socios.c
+1587280609 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\guia de ejercicios\ejercicios propios\ejerciciopropio1\socios.c
 	"arrays.h"
 	"validate.h"
 	"input.h"

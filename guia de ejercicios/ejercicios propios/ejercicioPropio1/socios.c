@@ -7,6 +7,7 @@ typedef char cadena [30];
 #include <stdlib.h>
 #include <string.h>
 
+
 void alta(int legajos[], cadena nombres[],cadena apellidos[],int edades[],char sexos[],int deportes[], int estados[],int tam, int cont)
 {
 

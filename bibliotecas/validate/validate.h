@@ -57,4 +57,24 @@ int onlyAlphanumeric(char cadena[]);
  */
 int onlyPhoneNumbers(char cadena[]);
 
+/** \brief Verifica si el tamanio de un array supera un determinado tamanio
+ *
+ * \param [] char cadena string a verificar
+ * \param tam int tamanio determinado con el que juzgaremos a la cadena
+ * \return int devuelve 1 si la cadena es menor y 0 si es mayor
+ *
+ */
+int isStringWithDefinedSize(char cadena [],int tam);
+
+
+/** \brief Verifica si el numero esta dentro del rango indicado
+ *
+ * \param number int Numero a verificar
+ * \param maximo int Hasta que numero
+ * \param minimo int Desde que numero
+ * \return int  numero con el rango precisado.
+ *
+ */
+int isNumberWithDefinedRange(int number, int maximo, int minimo);
+
 
