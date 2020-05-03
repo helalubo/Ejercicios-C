@@ -112,6 +112,17 @@ void menuModificacion();
  */
 int MostrarAbonadoPorLegajo(eAbonado listado[], int tam);
 
+/** \brief Indica la cantidad de abonados en estado ocupado
+ *
+ * \param listadoAbonados[] eAbonado lista a verificar
+ * \param tam int tamanio de listado
+ * \return int cantidad de abonados activos
+ *
+ */
+int cantidadDeAbonadosActivos(eAbonado listadoAbonados[],int tam);
+
+int retornarMayor(int numeros[], int cant);
+
 
 int main()
 {
@@ -505,4 +516,42 @@ void menuModificacion()
     printf("\n\t\t*******Menu de modificaciones*******\n1-Modificar Nombre\n2-Modificar apellido\n");
 
 }
+
+int cantidadDeAbonadosActivos(eAbonado listadoAbonados[],int tam)
+{
+
+    int cantAbonadosCargadas;
+    for(int i = 0; i<tam; i++)
+    {
+
+        if(listadoAbonados[i].estado == OCUPADO )
+        {
+            cantAbonadosCargadas ++;
+
+        }
+
+    }
+
+    return cantAbonadosCargadas;
+
+}
+
+int retornarMayor(int numeros[], int cant)
+{
+
+    int max;
+    max = INT_MIN;
+    for(int i = 0; i<cant; i++)
+    {
+
+        if(max < numeros[i])
+        {
+
+            max = numeros[i];
+        }
+
+    }
+    return max;
+}
+
 
