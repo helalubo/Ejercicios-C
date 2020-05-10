@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1588396910 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validate.h"
+
+1588396973 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\validate.h
+
+1588863233 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\main.c
+	<stdio.h>
+	<stdlib.h>
+	"proveedorProductos.h"
+
+1588863717 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\proveedor.h
+	<string.h>
+	"input.h"
+	"validate.h"
+
+1588396941 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\input.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validate.h"
+
+1588862574 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\producto.h
+	<string.h>
+	"input.h"
+	"validate.h"
+
+1588865488 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\producto.c
+	"producto.h"
+
+1588865440 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\proveedor.c
+	"proveedor.h"
+
+1588397005 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"input.h"
+
+1588863948 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\proveedorproductos.c
+	"proveedorProductos.h"
+
+1588861305 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\productosyproveedores\proveedorproductos.h
+	"producto.h"
+	"proveedor.h"
+

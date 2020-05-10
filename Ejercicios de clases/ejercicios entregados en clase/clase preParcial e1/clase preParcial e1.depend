@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1588396910 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validate.h"
+
+1588396973 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\validate.h
+
+1588397005 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\validate.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"input.h"
+
+1588396941 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\input.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validate.h"
+
+1588860050 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\main.c
+	<stdio.h>
+	"input.h"
+	"validate.h"
+	"proveedor.h"
+
+1588855815 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\producto.h
+	<string.h>
+	"input.h"
+	"validate.h"
+
+1588859423 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\proveedor.c
+	"proveedor.h"
+
+1588860040 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\producto.c
+	"producto.h"
+
+1588857176 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\ejercicios entregados en clase\clase preparcial e1\proveedor.h
+	<string.h>
+	"input.h"
+	"validate.h"
+	"producto.h"
+
