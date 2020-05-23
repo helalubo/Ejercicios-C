@@ -284,7 +284,7 @@ void getEmail(char cadena[], char mensaje[])
 
 
 
-void getStringWithDefineSize(char cadena[], char mensaje[],int tam,char Emensaje[])
+void getStringWithDefineSize(char cadena[], char mensaje[],int tam,char Emensaje)
 {
 
 
@@ -409,24 +409,6 @@ void getArchivo(char cadena[],char mensaje[],char Emensaje[]){
     }
 
 
-
-
-
-}
-
-
-void getDNI(char cadena[],char mensaje[],char Emensaje[]){
-
-
- getString(cadena,mensaje,Emensaje);
-
-
-
-    while(onlyDNI(cadena) == 0)
-    {
-        printf(Emensaje);
-        getString(cadena,mensaje,Emensaje);
-    }
 
 
 

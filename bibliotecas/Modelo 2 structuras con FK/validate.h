@@ -80,27 +80,7 @@ int isNumberWithDefinedRange(int number, int maximo, int minimo);
 
 ////////////////////////////////////////////////////////
 
-/** \brief Verifica si un string es un cuil
- *
- * \param cadena[] char cadena a verificar
- * \return int devuelve 1 si cumple la condicion 0 si no la cumple
- *
- */
 int onlyCuil(char cadena[]);
 
-/** \brief Verifica si un string es un nombre de archivo
- *
- * \param cadena[] char cadena a verificar
- * \return int devuelve 1 si cumple la condicion 0 si no la cumple
- *
- */
 int isArchivo(char cadena[]);
 
-
-/** \brief Verificar si un string es un DNI
- *
- * \param cadena[] char cadena a verificar
- * \return int int devuelve 1 si cumple la condicion 0 si no la cumple
- *
- */
-int onlyDNI(char cadena[]);

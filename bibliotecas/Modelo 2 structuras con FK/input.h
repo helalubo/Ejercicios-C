@@ -127,47 +127,12 @@ void getOnlyLetters(char cadena[], char mensaje[],char Emensaje[]);
  */
 void getonlyAlphanumeric(char cadena[], char mensaje[],char Emensaje[]);
 
-/** \brief Obtiene un string con un maximo de cantidad de caracteres impuesto
- *
- * \param cadena[] char cadena de string a pedir
- * \param mensaje[] char mensaje para pedir string
- * \param tam int maximo de cantidad de caracteres
- * \param Emensaje[] char mensaje en caso de error
- * \return void
- *
- */
-void getStringWithDefineSize(char cadena[], char mensaje[],int tam,char Emensaje[]);
+void getStringWithDefineSize(char cadena[], char mensaje[],int tam,char Emensaje);
 
 /////////////////////////////////////////
 
-/** \brief Obtiene un numero de cuil
- *
- * \param cadena[]char cadena donde se copiara el string a pedir
- * \param mensaje[] char mensaje para pedir string
- * \param Emensaje[] char mensaje en caso de error
- * \return void
- *
- */
 void getCuil(char cadena[],char mensaje[],char Emensaje[]);
-/** \brief Obtiene un nombre de archivo
- *
- * \param cadena[]char cadena donde se copiara el string a pedir
- * \param mensaje[] char mensaje para pedir string
- * \param Emensaje[] char mensaje en caso de error
- * \return void
- *
- */
+
 void getArchivo(char cadena[],char mensaje[],char Emensaje[]);
 
-
-
-/** \brief Obtiene un numero de DNI
- *
- * \param cadena[] char cadena donde se copiara el string
- * \param mensaje[] char mensaje para pedir string
- * \param Emensaje[] char mensaje en caso de error
- * \return void
- *
- */
-void getDNI(char cadena[],char mensaje[],char Emensaje[]);
 

@@ -223,7 +223,6 @@ int onlyAlphanumeric(char cadena[])
 
     }
 
-
             if(onlyLetters(cadena) == 1){
 
                 flag = 0;
@@ -234,7 +233,6 @@ int onlyAlphanumeric(char cadena[])
 
                 flag = 0;
             }
-
 
     return flag;
 }
@@ -368,13 +366,10 @@ int i = 0;
     }
 
 
-    if(strlen(cadena)==13){
-        flag = 1;
-    }else{
+   // if (onlyNumbers(cadena) == 1){
 
-    flag = 0;
-
-    }
+    //    flag = 1;
+   // }
 
 
     return flag;
@@ -433,58 +428,3 @@ int isArchivo(char cadena[]){
 }
 
 
-int onlyDNI(char cadena[]){
-
-int i = 0;
-    int flag = 0;
-
-
-    if(cadena != NULL)
-    {
-
-        while(cadena[i] != '\0' )
-        {   //20-39068081-4
-
-            if((cadena[i] >= '0' && cadena [i]<='9'))
-            {
-
-                flag = 1;
-            }
-            else
-            {
-                flag = 0;
-                break;
-            }
-
-            i++;
-
-        }
-
-
-
-    }
-    else
-    {
-
-        flag = 0;
-
-
-    }
-
-
-    if(strlen(cadena)==8){
-        flag = 1;
-    }else{
-
-    flag = 0;
-
-    }
-
-
-    return flag;
-
-
-
-
-
-}

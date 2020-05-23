@@ -229,12 +229,11 @@ void baja(eAbonado listado[], int tam)
 
 
     }
-    else
-    {
+    
 
         printf("\n LA BAJA A SIDO ABORTADA.");
 
-    }
+    
 
 
 
