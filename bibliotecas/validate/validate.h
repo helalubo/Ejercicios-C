@@ -21,7 +21,7 @@ char verificarMF(char mensaje[]);
 /**
 *\brief Verifica si un string es un email o no
 *\param char[] string a verificar
-*\return int devuelve 1 como true y 0 como false
+*\return int devuelve 0 como true y -1 como false
 */
 int isEmail (char cadena[]);
 
@@ -31,28 +31,28 @@ int isEmail (char cadena[]);
 /** \brief Verifica si un string solo contiene numeros
  *
  * \param cadena[] char cadena a verificar
- * \return int resultado 1 = true 0 = false
+ * \return int resultado 0 = true -1 = false
  *
  */
 int onlyNumbers(char cadena[]);
 /** \brief Verifica si un string solo contiene letras
  *
  * \param cadena[] char cadena a verificar
- * \return int resultado 1 = true 0 = false
+ * \return int resultado 0 = true -1 = false
  *
  */
 int onlyLetters(char cadena[]);
 /** \brief Verifica si un string solo contiene letras y numeros
  *
  * \param cadena[] char cadena a verificar
- * \return int resultado 1 = true 0 = false
+ * \return int resultado 0 = true -1 = false
  *
  */
 int onlyAlphanumeric(char cadena[]);
 /** \brief Verifica si un string es un telefono
  *
  * \param cadena[] char cadena a verificar
- * \return int resultado 1 = true 0 = false
+ * \return int resultado 0 = true -1 = false
  *
  */
 int onlyPhoneNumbers(char cadena[]);
@@ -61,7 +61,7 @@ int onlyPhoneNumbers(char cadena[]);
  *
  * \param [] char cadena string a verificar
  * \param tam int tamanio determinado con el que juzgaremos a la cadena
- * \return int devuelve 1 si la cadena es menor y 0 si es mayor
+ * \return int devuelve 0 si la cadena es menor y -1 si es mayor
  *
  */
 int isStringWithDefinedSize(char cadena [],int tam);
@@ -83,7 +83,7 @@ int isNumberWithDefinedRange(int number, int maximo, int minimo);
 /** \brief Verifica si un string es un cuil
  *
  * \param cadena[] char cadena a verificar
- * \return int devuelve 1 si cumple la condicion 0 si no la cumple
+ * \return int devuelve 0 si cumple la condicion -1 si no la cumple
  *
  */
 int onlyCuil(char cadena[]);
@@ -91,7 +91,7 @@ int onlyCuil(char cadena[]);
 /** \brief Verifica si un string es un nombre de archivo
  *
  * \param cadena[] char cadena a verificar
- * \return int devuelve 1 si cumple la condicion 0 si no la cumple
+ * \return int devuelve 0 si cumple la condicion -1 si no la cumple
  *
  */
 int isArchivo(char cadena[]);
@@ -100,7 +100,26 @@ int isArchivo(char cadena[]);
 /** \brief Verificar si un string es un DNI
  *
  * \param cadena[] char cadena a verificar
- * \return int int devuelve 1 si cumple la condicion 0 si no la cumple
+ * \return int int devuelve 0 si cumple la condicion -1 si no la cumple
  *
  */
 int onlyDNI(char cadena[]);
+
+/**
+*\brief Verifica si un string es un numero o no
+*\param char[] string a verificar
+*\return devuelve 0 como true y -1 como false
+*/
+int isNumber(char numero[]);
+
+/** \brief Verifica si es un flotante
+ *
+ * \param float number flotante a verificar
+ * \return int 0 si es flotante -1 si no
+ *
+ */
+int isFloat(char cadena[]);
+
+
+
+int isMoF(char sexo);

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1590485616 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1590485046 source:c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\punteros\cliente.c
+	"cliente.h"
+
+1590483921 c:\users\user\desktop\utn\laboratorioprogramacion 1b\ejercicios-c\ejercicios de clases\punteros\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

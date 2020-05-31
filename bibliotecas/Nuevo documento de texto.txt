@@ -1,0 +1,154 @@
+int contIdCliente = 1;
+int contIndex =0;
+int sizeListadoDeClientes = 2;
+
+///****************************setters********************************************
+
+int eCliente_setNombre(eCliente* this, char* nombre)
+{
+    int rta = -1;
+    if(this!= NULL && nombre != NULL && onlyLetters(nombre) == 0)
+    {
+        strcpy(this->nombre,nombre);
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_setApellido(eCliente* this, char* apellido)
+{
+    int rta = -1;
+    if(this!= NULL && apellido != NULL && onlyLetters(apellido) == 0)
+    {
+        strcpy(this->apellido,apellido);
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_setLocalidad(eCliente* this, char* localidad)
+{
+    int rta = -1;
+    if(this!= NULL && localidad != NULL && onlyLetters(localidad) == 0)
+    {
+        strcpy(this->localidad,localidad);
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_setTelefono(eCliente* this, char* telefono)
+{
+    int rta = -1;
+    if(this!= NULL && telefono != NULL && onlyPhoneNumbers(telefono)== 0)
+    {
+        strcpy(this->telefono,telefono);
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_setEdad(eCliente* this, int edad)
+{
+    int rta = -1;
+    if(this!= NULL && isNumberWithDefinedRange(edad,100,1) ==0 )
+    {
+        this->edad = edad;
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_setSexo(eCliente* this, char sexo)
+{
+    int rta = -1;
+    if(this!= NULL && isMoF(sexo)== 0)
+    {
+        this->sexo = sexo;
+        rta = 0;
+    }
+    return rta;
+}
+
+int eCliente_setId(eCliente* this)
+{
+    int rta = -1;
+    if(this!= NULL )
+    {
+        this->idCliente = contIdCliente++ ;
+        rta = 0;
+    }
+    return rta;
+}
+
+
+///*********************************getters***************************************
+
+
+int eCliente_getNombre(eCliente* this, char* nombre)
+{
+    int rta = -1;
+    if(this!= NULL && nombre != NULL )
+    {
+        strcpy(nombre,this->nombre);
+        rta = 0;
+    }
+    return rta;
+}
+
+int eCliente_getApellido(eCliente* this, char* apellido)
+{
+    int rta = -1;
+    if(this!= NULL && apellido != NULL )
+    {
+        strcpy(apellido,this->apellido);
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_getLocalidad(eCliente* this, char* localidad)
+{
+    int rta = -1;
+    if(this!= NULL && localidad != NULL )
+    {
+        strcpy(localidad,this->localidad);
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_getTelefono(eCliente* this, char* telefono)
+{
+    int rta = -1;
+    if(this!= NULL && telefono != NULL )
+    {
+        strcpy(telefono,this->telefono);
+        rta = 0;
+    }
+    return rta;
+}
+
+int eCliente_getEdad(eCliente* this, int edad)
+{
+    int rta = -1;
+    if(this!= NULL && isNumberWithDefinedRange(edad,100,1) ==0)
+    {
+        edad  =this->edad ;
+        rta = 0;
+    }
+    return rta;
+}
+int eCliente_getSexo(eCliente* this, char sexo)
+{
+    int rta = -1;
+    if(this!= NULL && isMoF(sexo)== 0)
+    {
+      sexo= this->sexo;
+        rta = 0;
+    }
+    return rta;
+}
+
+int eCliente_getId(eCliente* this, int id)
+{
+    int rta = -1;
+    if(this!= NULL )
+    {
+        id = this->idCliente;
+    }
+    return rta;
+}

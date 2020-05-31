@@ -6,48 +6,7 @@
 #include <ctype.h>
 #include "validate.h"
 
-int isNumber(char cadena[])
-{
 
-    int i = 0;
-    int flag = 0;
-
-
-    if(cadena != NULL)
-    {
-
-        while(cadena[i] != '\0' )
-        {
-
-            if((cadena[i] >= '0' && cadena [i]<='9') || cadena[0] == '-')
-            {
-
-                flag = 1;
-            }
-            else
-            {
-                flag = 0;
-                break;
-            }
-
-            i++;
-
-        }
-
-
-
-    }
-    else
-    {
-
-        flag = 0;
-
-
-    }
-
-
-    return flag;
-}
 
 
 
@@ -64,7 +23,7 @@ void getString(char cadena[], char mensaje[],char Emensaje[])
 
     strcpy(cadena,aux);
 
-    while(strcmp(cadena,"")==0)
+    while(strcmp(cadena,"")==-1)
     {
 
         printf(Emensaje);
@@ -95,7 +54,7 @@ int getInt(char mensaje[],char Emensaje[])
         getString(aux,mensaje,Emensaje);
         verificar= isNumber(aux);
 
-        if(verificar == 1)
+        if(verificar == 0)
         {
 
             respuesta = atoi(aux);
@@ -126,65 +85,20 @@ int getInt(char mensaje[],char Emensaje[])
 
 }
 
-int isFloat(char cadena[])
-{
 
-    int flag;
-    int i = 0;
-
-    if(cadena != NULL)
-    {
-
-        while(cadena[i] != '\0' )
-        {
-
-            if((cadena[i] >= '0' && cadena [i]<='9') || cadena[0] == '-' || cadena[i] == '.')
-            {
-
-                flag = 1;
-            }
-            else
-            {
-                flag = 0;
-                break;
-            }
-
-            i++;
-
-        }
-
-
-
-    }
-    else
-    {
-
-        flag = 0;
-
-
-    }
-
-
-
-
-
-
-    return flag;
-
-}
 
 
 float getFloat(char mensaje[],char Emensaje[])
 {
 
     char aux[60];
-    int verificar = 0;
+    int verificar = -1;
 
     float resultado;
 
 
 
-    while(verificar == 0)
+    while(verificar == 1)
     {
 
 
@@ -194,7 +108,7 @@ float getFloat(char mensaje[],char Emensaje[])
         verificar = isFloat(aux);
 
 
-        if(verificar == 1 )
+        if(verificar == 0 )
         {
 
 
@@ -266,7 +180,7 @@ void getEmail(char cadena[], char mensaje[])
     gets(aux);
 
 
-    while(isEmail(aux) == 0)
+    while(isEmail(aux) ==  -1)
     {
         printf("\nError! ingresar email valido: ");
         printf(mensaje);
@@ -292,7 +206,7 @@ void getStringWithDefineSize(char cadena[], char mensaje[],int tam,char Emensaje
 
 
 
-    while(isStringWithDefinedSize(cadena,tam) == 0)
+    while(isStringWithDefinedSize(cadena,tam) ==  -1)
     {
         printf("\n Error! Cadena supera el limite establecido");
         getString(cadena,mensaje,Emensaje);
@@ -309,7 +223,7 @@ int getNumberWithDefinedRange(char mensaje[], int maximo, int minimo, char Emens
 
     rta = getInt(mensaje,Emensaje);
 
-    while(isNumberWithDefinedRange(rta,maximo,minimo)== 0){
+    while(isNumberWithDefinedRange(rta,maximo,minimo)==  -1){
 
             printf(Emensaje);
             rta = getInt(mensaje,Emensaje);
@@ -329,7 +243,7 @@ void getPhoneNumber(char cadena[], char mensaje[],char Emensaje[])
 
 
 
-    while(onlyPhoneNumbers(cadena) == 0)
+    while(onlyPhoneNumbers(cadena) ==  -1)
     {
         printf(Emensaje);
         getString(cadena,mensaje,Emensaje);
@@ -347,7 +261,7 @@ void getOnlyLetters(char cadena[], char mensaje[],char Emensaje[])
 
 
 
-    while(onlyLetters(cadena) == 0)
+    while(onlyLetters(cadena) ==  -1)
     {
         printf(Emensaje);
         getString(cadena,mensaje,Emensaje);
@@ -366,7 +280,7 @@ void getonlyAlphanumeric(char cadena[], char mensaje[],char Emensaje[])
 
 
 
-    while(onlyAlphanumeric(cadena) == 0)
+    while(onlyAlphanumeric(cadena) ==  -1)
     {
         printf(Emensaje);
         getString(cadena,mensaje,Emensaje);
@@ -385,7 +299,7 @@ void getCuil(char cadena[],char mensaje[],char Emensaje[]){
 
 
 
-    while(onlyCuil(cadena) == 0)
+    while(onlyCuil(cadena) ==  -1)
     {
         printf(Emensaje);
         getString(cadena,mensaje,Emensaje);
@@ -402,7 +316,7 @@ void getArchivo(char cadena[],char mensaje[],char Emensaje[]){
 
 
 
-    while(isArchivo(cadena) == 0)
+    while(isArchivo(cadena) ==  -1)
     {
         printf(Emensaje);
         getString(cadena,mensaje,Emensaje);
@@ -422,7 +336,7 @@ void getDNI(char cadena[],char mensaje[],char Emensaje[]){
 
 
 
-    while(onlyDNI(cadena) == 0)
+    while(onlyDNI(cadena) ==  -1)
     {
         printf(Emensaje);
         getString(cadena,mensaje,Emensaje);

@@ -6,6 +6,10 @@
 
 
 
+
+
+
+
 /** \brief Obtiene un entero
  *
  * \param char[]  mensaje[] char mensaje a mostrar al pedir el entero
@@ -16,13 +20,7 @@
 int getInt(char mensaje[],char Emensaje[]);
 
 
-/** \brief Verifica si es un flotante
- *
- * \param float number flotante a verificar
- * \return int 1 si es flotante 0 si no
- *
- */
-int isFloat(float number);
+
 
 
 
@@ -61,12 +59,7 @@ char getChar(char mensaje[]);
 void getString(char cadena[], char mensaje[],char Emensaje[]);
 
 
-/**
-*\brief Verifica si un string es un numero o no
-*\param char[] string a verificar
-*\return devuelve 1 como true y 0 como false
-*/
-int isNumber(char numero[]);
+
 
 
 /**
